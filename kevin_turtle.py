@@ -6,9 +6,9 @@ from random import randint
 window = turtle.Screen()
 window.title("Python Turtle Race")
 turtle.bgcolor("hotpink")
-turtle.speed(0) # The speed of our turtle
-turtle.penup()  # This will make turtle lines invisible
-turtle.setpos(-330, 200) # This will position our turtle
+turtle.speed(0)
+turtle.penup()
+turtle.setpos(-330, 200)
 turtle.write("Python Turtle Race", font = ("Arial", 10, "bold"))
 turtle.penup()
 
